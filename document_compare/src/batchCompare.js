@@ -1,4 +1,3 @@
-// src/batchCompare.js
 const DocumentComparer = require('./documentComparer');
 const path = require('path');
 const fs = require('fs');
