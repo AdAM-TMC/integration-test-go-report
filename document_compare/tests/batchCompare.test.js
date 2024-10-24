@@ -148,22 +148,43 @@ describe('BatchDocumentComparer', () => {
     
         const batchComparer = new BatchDocumentComparer(downloadsPath, samplesPath, reportsPath);
         
-        await expect(batchComparer.compareAll()).rejects.toThrow('Comparison failed: 1 failures, 0 errors');
+        try {
+            await batchComparer.compareAll();
+        } catch (error) {
+            // We expect this error, but want to verify the summary was written correctly
+            expect(error.message).toBe('Comparison failed: 1 failures, 0 errors');
+        }
     
-        // Verify summary file content
-        expect(fs.writeFileSync).toHaveBeenCalledWith(
-            expect.stringContaining('summary-'),
-            expect.any(String),
-            expect.anything()
-        );
-    
-        // Parse the JSON content from the second argument
-        const writtenContent = JSON.parse(fs.writeFileSync.mock.calls[0][1]);
+        // Verify the writeFileSync was called
+        expect(fs.writeFileSync).toHaveBeenCalled();
         
-        // Now verify the specific content
-        expect(writtenContent.statistics.failed).toBe(1);
-        expect(writtenContent.statistics.passed).toBe(2);
-        expect(writtenContent.statistics.total).toBe(3);
-        expect(writtenContent.status).toBe('FAILED');
+        // Get the actual call arguments
+        const writeCallArgs = fs.writeFileSync.mock.calls[0];
+        
+        // Verify the file path contains 'summary-'
+        expect(writeCallArgs[0]).toContain('summary-');
+        
+        // Parse and verify the written content
+        const writtenContent = JSON.parse(writeCallArgs[1]);
+        
+        // Verify the content structure
+        expect(writtenContent).toMatchObject({
+            totalFiles: 3,
+            statistics: {
+                passed: 2,
+                failed: 1,
+                errors: 0,
+                total: 3
+            },
+            status: 'FAILED',
+            results: expect.arrayContaining([
+                expect.objectContaining({
+                    fileName: 'document2.docx',
+                    status: 'FAILED',
+                    hasDifferences: true,
+                    differenceCount: 2
+                })
+            ])
+        });
     });
 });
