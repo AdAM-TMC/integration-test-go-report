@@ -3,3 +3,5 @@ node_modules/.bin/cypress
 /node_modules
 package-lock.json
 /cypress/downloads
+/document_compare/node_modules
+/document_compare/reports

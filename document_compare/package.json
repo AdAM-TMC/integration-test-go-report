@@ -1,0 +1,22 @@
+{
+  "name": "document_compare",
+  "version": "1.0.0",
+  "description": "Word document comparison tool for automated testing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "compare": "node src/runComparison.js",
+    "compare:batch": "node src/batchCompare.js"
+  },
+  "keywords": ["document", "comparison", "testing", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "diff": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
