@@ -1,0 +1,730 @@
+[
+  {
+    "code": "A-2024-FE-6411-EF-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-6411-EF-3",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-6411-EF-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-6422-PC-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-6422-RA-11",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7114-PC-5",
+    "message": "ErrorLa columna Mod. Recup. de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-7200-PC-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8000-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8100-PC-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8100-PC-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-10",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-12",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-13",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-17",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-18",
+    "message": "ErrorLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-7",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-8",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-CAT-9",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-GE-0",
+    "message": "ErrorLa columna Mod. Recup. de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-O1-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-O1-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-ORE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-PS-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-PS-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-PS-12",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-PS-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-PS-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-QR-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-8400-SM-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-1740-GE-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-1740-GE-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2180-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2180-GE-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2180-GE-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2186-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2186-GE-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2186-GE-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2189-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-2189-GE-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-6368-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FG-8000-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-2500-GE-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-5650-PS-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7101-O1-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7103-O1-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7103-O1-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7103-O1-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7103-O1-3",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7103-O1-4",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9143, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FI-7110-EF-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-IC-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-IR-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-IR-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-IR-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-ME-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-MM-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-MN-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-PS-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-PS-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-PS-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7110-PS-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-EF-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-10",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-11",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-12",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-13",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-14",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-3",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-4",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-5",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-6",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-8",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-GE-9",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-IV-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-IV-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-IV-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-IV-3",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-MA-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-MA-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-PS-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-PS-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-10",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-10",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-5",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-6",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-7",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-8",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-RA-9",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TA-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TA-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TA-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-10",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-11",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-12",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor N/A, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-13",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-5",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-6",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-7",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-8",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-7115-TC-9",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-CAT-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-GE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-GE-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-ORE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-PS-12",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-PS-13",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-PS-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FI-8400-QR-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2190-MM-0",
+    "message": "ErrorLa columna Mod. Recup. de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2190-MM-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2190-MM-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2190-MM-3",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.99, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-2299-ME-0",
+    "message": "ErrorLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2299-ME-1",
+    "message": "ErrorLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2299-ME-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2299-ME-3",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-0",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.923, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-1",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-2",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9122, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-3",
+    "message": "ErrorLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-4",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2450-QR-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2450-QR-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2472-RA-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2473-RA-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2473-RA-1",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2473-RA-2",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2475-MA-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2475-MA-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-AT-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-AT-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-SN-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-SN-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-SN-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-SN-",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-VA-",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-VA-",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2800-VA-0",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2900-IR-0",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2900-IR-1",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2900-IR-2",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2900-IR-3",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2900-IR-4",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 1, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-2910-IV-0",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-2990-TV-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-3105-OT-0",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4060-PRE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4060-PRE-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4061-PRE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-0",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9675, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-1",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-3",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-4",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-5",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.975, y no se ha adjuntado Anexo 4."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-6",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4070-O1-7",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4072-PRE-0",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-4076-PRE-0",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9357, y no se ha adjuntado Anexo 4."
+  }
+]

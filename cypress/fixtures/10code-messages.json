@@ -1,0 +1,22 @@
+[
+  {
+    "code": "A-2024-FE-6411-EF-2",
+    "message": "ErrorLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  },
+  {
+    "code": "A-2024-FE-6411-EF-4",
+    "message": "ErrorLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  }, 
+  {
+    "code": "A-2024-FE-8400-CAT-18",
+    "message": "ErrorLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  }, 
+  {
+    "code": "A-2024-FI-7103-O1-4",
+    "message": "ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9143, y no se ha adjuntado Anexo 4 o no tiene filas mostrables."
+  },
+  {
+    "code": "A-2024-FE-2305-IC-1",
+    "message": "ErrorLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."
+  }
+]
