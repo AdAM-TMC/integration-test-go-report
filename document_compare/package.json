@@ -5,9 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest",
-    "compare": "node src/runComparison.js",
-    "compare:batch": "node src/batchCompare.js"
+    "test": "jest"
   },
   "keywords": ["document", "comparison", "testing", "automation"],
   "author": "",
