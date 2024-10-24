@@ -4,7 +4,6 @@ const path = require('path');
 const mammoth = require('mammoth');
 const diff = require('diff');
 
-// Mock the necessary modules
 jest.mock('fs');
 jest.mock('mammoth');
 jest.mock('diff');
@@ -16,22 +15,15 @@ describe('DocumentComparer', () => {
     const newDocPath = path.join(testDataDir, 'newVersion.docx');
     const reportPath = path.join(outputDir, 'report.json');
 
-    beforeAll(() => {
-        // Ensure that the directories exist
-        if (!fs.existsSync(testDataDir)) {
-            fs.mkdirSync(testDataDir);
-        }
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir);
-        }
-    });
-
-    afterEach(() => {
+    beforeEach(() => {
+        // Reset all mocks before each test
         jest.clearAllMocks();
-    });
 
-    test('should detect differences between documents and generate a report', async () => {
         // Mock file system read
+        fs.existsSync.mockReturnValue(true);
+        fs.mkdirSync.mockImplementation(() => {});
+
+        // Mock fs.readFileSync to return test buffers
         fs.readFileSync.mockImplementation((docPath) => {
             if (docPath === baselineDocPath) {
                 return Buffer.from('This is the baseline document.');
@@ -41,9 +33,23 @@ describe('DocumentComparer', () => {
             throw new Error('File not found');
         });
 
-        // Mock mammoth text extraction
-        mammoth.extractRawText.mockResolvedValueOnce({ value: 'This is the baseline document.' });
-        mammoth.extractRawText.mockResolvedValueOnce({ value: 'This is the updated document with new content.' });
+        // Mock mammoth.extractRawText
+        mammoth.extractRawText.mockImplementation(({ buffer }) => {
+            const text = buffer.toString();
+            return Promise.resolve({
+                value: text,
+                messages: []
+            });
+        });
+
+        // Mock mammoth.convert
+        mammoth.convert.mockImplementation(({ buffer }) => {
+            const text = buffer.toString();
+            return Promise.resolve({
+                value: text,
+                messages: []
+            });
+        });
 
         // Mock diffWords
         diff.diffWords.mockReturnValue([
@@ -52,26 +58,26 @@ describe('DocumentComparer', () => {
             { value: 'updated', added: true, removed: false },
             { value: ' document with new content.', added: false, removed: false }
         ]);
+    });
 
-        // Initialize the DocumentComparer
+    test('should detect differences between documents and generate a report', async () => {
         const comparer = new DocumentComparer(baselineDocPath, newDocPath, reportPath);
 
-        // Perform the comparison
         const result = await comparer.compareDocuments();
 
-        // Assertions for the result
+        // Assertions
         expect(result.hasDifferences).toBe(true);
         expect(result.differenceCount).toBe(2);
         expect(result.reportPath).toBe(reportPath);
 
-        // Check if the report was generated
+        // Verify report generation
         expect(fs.writeFileSync).toHaveBeenCalledWith(
             reportPath,
-            expect.any(String), // The report content as a JSON string
+            expect.any(String),
             'utf8'
         );
 
-        // Check the structure of the generated report
+        // Verify report content
         const reportContent = JSON.parse(fs.writeFileSync.mock.calls[0][1]);
         expect(reportContent).toHaveProperty('baselineDocument', 'baseline.docx');
         expect(reportContent).toHaveProperty('newVersionDocument', 'newVersion.docx');
