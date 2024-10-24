@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "install-cypress": "npm install cypress --save-dev"
+    "install-cypress": "npm install cypress --save-dev",
+    "cy:test":"cypress run",
+    "start-document-compare": "cd document_compare && npm run start"
   },
   "keywords": [],
   "author": "TMC",
