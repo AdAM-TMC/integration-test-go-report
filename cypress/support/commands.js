@@ -94,21 +94,55 @@ Cypress.Commands.add('selectOptionByLocator', (optionText, optionLocator) => {
   
   Cypress.Commands.add('verifyToastMessage', (expectedMessage) => {
     cy.log(`Executing 'verifyToastMessage' with expectedMessage: "${expectedMessage}"`);
+    
     cy.get('.p-toast')
-    .should('be.visible')
-    .and('contain', expectedMessage)
-    .first() // Get the first toast element that matches the criteria
-    .then((toast) => {
-      // Verify the close button exists within the first toast
-      cy.wrap(toast)
-        .find('button[aria-label="Close"]')
-        .should('exist')
-        .and('be.visible')
-        .first() // Ensure only the first matching button is clicked
-        .click() // Click the first button
-        .should('not.exist');
-    });
+      .should('be.visible')
+      .first() // Get the first visible toast element
+      .then((toast) => {
+
+        const actualMessage = toast.text(); 
+        //console.log(`Actual toast message: "${actualMessage}"`);
+        expect(actualMessage).to.contain(expectedMessage);
+  
+        // Verify the close button exists within the first toast
+        cy.wrap(toast)
+          .find('button[aria-label="Close"]')
+          .should('exist')
+          .and('be.visible')
+          .first() 
+          .click()
+          .should('not.exist');
+      });
   });
+
+  Cypress.Commands.add('extractToastMessage', (code) => {
+    cy.get('.p-toast')
+      .should('be.visible')
+      .first()
+      .then((toast) => {
+        const actualMessage = toast.text().trim();
+        const jsonOutput = {
+          code: code,
+          message: actualMessage
+        };
+  
+        // Convert to JSON string
+        const outputString = JSON.stringify(jsonOutput);
+  
+        // Send output to the appendToFile task
+        cy.task('appendToFile', { fileName: 'toastMessages.json', data: outputString });
+  
+        // Close the toast
+        cy.wrap(toast)
+          .find('button[aria-label="Close"]')
+          .should('exist')
+          .and('be.visible')
+          .first()
+          .click()
+          .should('not.exist');
+      });
+  });
+  
   
   Cypress.Commands.add('verifyFileInTable', (fileName) => {
     cy.log(`Executing 'verifyFileInTable' with fileName: "${fileName}"`);

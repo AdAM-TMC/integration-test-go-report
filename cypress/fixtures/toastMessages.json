@@ -1,0 +1,11 @@
+[
+    {"code":"A-2024-FE-2190-MM-0","message":"Error en el procesamientoLa columna Mod. Recup. de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."},
+    {"code":"A-2024-FE-2190-MM-1","message":"Error en el procesamientoLa columna Entorno entrenamiento de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."},
+    {"code":"A-2024-FE-2190-MM-3","message":"Error en el procesamientoLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.99, y no se ha adjuntado Anexo 4 o no tiene filas mostrables."},
+    {"code":"A-2024-FE-2299-ME-0","message":"Error en el procesamientoLa columna Plan Aula de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."},
+    {"code":"A-2024-FE-2305-IC-0","message":"Error en el procesamientoLa columna Nº Pend. de la hoja Control de CURSOS del excel Semáforo tiene un valor 1, y no se ha adjuntado Anexo 1 y 3 o no tiene filas mostrables."},
+    {"code":"A-2024-FE-2305-IC-1","message":"Error en el procesamientoLa columna Cualificación de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."},
+    {"code":"A-2024-FE-2450-QR-0","message":"Error en el procesamientoLa columna Origen de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."},
+    {"code":"A-2024-FE-5600-OE-0","message":"¡Éxito!¡Reporte generado correctamente!"},
+    {"code":"A-2024-FE-2190-MM-0","message":"Error en el procesamientoLa columna Mod. Recup. de la hoja Control de CURSOS del excel Semáforo, debe ser rellenada."}
+]
