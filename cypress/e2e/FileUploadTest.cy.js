@@ -16,7 +16,7 @@ describe('File Upload Test', () => {
     cy.get('button[aria-label="Añadir Archivo"]').click();
 
     // Verify the toast message
-   // cy.verifyToastMessage('File uploaded successfully');
+    cy.verifyToastMessage('¡Archivo añadido!Archivo upload.txt añadido correctamente.');
 
     // Verify the file in the table
     cy.verifyFileInTable(fileName);
@@ -28,7 +28,7 @@ describe('File Upload Test', () => {
     cy.clickGenerateWord();
 
     // Verify the outcome after clicking "Generar Word"
-    cy.verifyToastMessage('La hoja del excel Control de CURSOS no existe en la archivo Semáforo.');
+    cy.verifyToastMessage('Error en el procesamientoLa hoja del excel Control de CURSOS no existe en la archivo Semáforo.');
   });
 
 
@@ -181,7 +181,7 @@ describe('File Upload Test', () => {
 
     // Verify the validation message in toast
     //Validacion Nueva en version 0.3.1
-    cy.verifyToastMessage('ErrorLa columna Nº Pend. de la hoja Control de CURSOS del excel Semáforo tiene un valor 0, y se ha adjuntado Anexo 1 y 3 y tiene filas mostrables.');
+    cy.verifyToastMessage('Error en el procesamientoLa columna Nº Pend. de la hoja Control de CURSOS del excel Semáforo tiene un valor 0, y se ha adjuntado Anexo 1 y 3 y tiene filas mostrables.');
 
     cy.deleteFileInTable(fileName);
 
@@ -204,7 +204,7 @@ describe('File Upload Test', () => {
     cy.clickGenerateWord();
     
     // Verify the validation message in toast
-    cy.verifyToastMessage('ErrorLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9143, y no se ha adjuntado Anexo 4 o no tiene filas mostrables.');
+    cy.verifyToastMessage('Error en el procesamientoLa columna Valor Araña de la hoja Control de CURSOS del excel Semáforo tiene un valor 0.9143, y no se ha adjuntado Anexo 4 o no tiene filas mostrables.');
 
     cy.deleteFileInTable(Anexo4fileName);
 
@@ -227,7 +227,7 @@ describe('File Upload Test', () => {
     cy.clickGenerateWord();
 
     // Verify the toast message
-    cy.verifyToastMessage('ErrorLa columna Coment. de la hoja Control de CURSOS del excel Semáforo tiene un valor SI, y no se ha adjuntado Anexo 5 o no tiene filas mostrables.');
+    cy.verifyToastMessage('Error en el procesamientoLa columna Coment. de la hoja Control de CURSOS del excel Semáforo tiene un valor SI, y no se ha adjuntado Anexo 5 o no tiene filas mostrables.');
 
     // Select option "Anexo 5"
     cy.selectOptionByLocator('Anexo 5','#pv_id_1_1');
@@ -322,6 +322,40 @@ describe('File Upload Test', () => {
   
     // Verify the file in the table
     cy.verifyFileInTable(Anexo4fileName);
+  
+    // Add course code and verify
+    cy.addCourseCode(courseCode);
+  
+    // Click the "Generar Word" button
+    cy.clickGenerateWord();
+
+    // Verify the validation message in toast
+    cy.verifyToastMessage('¡Reporte generado correctamente!');
+  
+    // Click the download button
+    cy.clickDownloadButton();
+  });
+
+  it('should upload files SEMAFORO, NO Anexos and Create', () => {
+    cy.visit('/#/Home', { timeout: 10000 });
+  
+    const fileName = 'SEMÁFORO CURSOS 2024 1.xlsx';
+    const courseCode = 'A-2024-FE-5600-OE-0';
+  
+    // Select option "Semáforo"
+    cy.selectOption('Semáforo');
+  
+    // Upload the file and verify success
+    cy.uploadFile(fileName);
+  
+    // Click "Añadir Archivo" button
+    cy.get('button[aria-label="Añadir Archivo"]').click();
+  
+    // Verify the toast message
+    cy.verifyToastMessage('¡Archivo añadido!Archivo '+fileName+' añadido correctamente.');
+  
+    // Verify the file in the table
+    cy.verifyFileInTable(fileName);
   
     // Add course code and verify
     cy.addCourseCode(courseCode);
