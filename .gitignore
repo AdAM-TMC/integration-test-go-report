@@ -5,3 +5,4 @@ package-lock.json
 /cypress/downloads
 /document_compare/node_modules
 /document_compare/reports
+/cypress/screenshots
