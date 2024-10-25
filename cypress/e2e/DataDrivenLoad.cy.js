@@ -1,6 +1,6 @@
 describe('Data-Driven Test with Code List', () => {
   beforeEach(() => {
-    cy.fixture('10code-messages.json').as('codes').then((codes) => {
+    cy.fixture('toastMessages.json').as('codes').then((codes) => {
       cy.log(JSON.stringify(codes));
     });
     cy.reload();
